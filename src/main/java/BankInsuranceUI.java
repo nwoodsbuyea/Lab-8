@@ -106,7 +106,7 @@ public class BankInsuranceUI extends javax.swing.JFrame {
             
         } catch (InvalidAgeException ex) {
             
-            JOptionPane.showMessageDialog(this, "Invalid age entered.");
+            JOptionPane.showMessageDialog(this, "Invalid age, please enter an age between 5 and 110.");
             
         } catch (NumberFormatException ex) {
             
